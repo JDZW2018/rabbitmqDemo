@@ -12,9 +12,6 @@ spring:
     cache:
       channel:
         size: 50
-# Define the port where the UAA server would be running
 server:
   port: 7894
-  # Use different context-path to avoid session cookie overlapping
   context-path: /
-#  use-forward-headers: true
